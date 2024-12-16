@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className=' bg-[#207AD6] flex justify-between py-2 px-10 text-yellow-50 font-semibold'>
         <div className='flex gap-5 items-center '>
-            <img className="w-14 h-14 object-cover rounded-full " src="./public/logo2.png" alt="" />
+            <img className="w-14 h-14 object-cover rounded-full " src="/public/logo2.png" alt="" />
            <Link className='hover:text-yellow-300 transition-all duration-300' to="/">Home</Link>
            <Link className='hover:text-yellow-300 transition-all duration-300' to="/notes">Notes</Link>
         </div>
